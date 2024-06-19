@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoveFood : MonoBehaviour
+public class MoveForward : MonoBehaviour
 {
     public float speed = 40f;
     // Start is called before the first frame update
