@@ -8,7 +8,10 @@ public class PlayerController : MonoBehaviour
     public float speed = 20f;
     public float XRange;
 
-    public GameObject projectilePrefabs;
+    public GameObject projectileFood;
+
+    private Animation animation;
+
 
     // Start is called before the first frame update
     void Start()
@@ -32,9 +35,9 @@ public class PlayerController : MonoBehaviour
 
         transform.Translate(Vector3.right * Time.deltaTime * speed * HorizontalInput);
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Mouse0))
         {
-            Instantiate(projectilePrefabs, transform.position, projectilePrefabs.transform.rotation);
+            Instantiate(projectileFood, transform.position, projectileFood.transform.rotation);
         }
     }
 }
