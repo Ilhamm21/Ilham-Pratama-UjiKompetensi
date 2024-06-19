@@ -163,5 +163,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 388941976dc6e2c4599fb43d5de4392d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  topGround: 70
+  topGround: 60
   bottomGround: -10
