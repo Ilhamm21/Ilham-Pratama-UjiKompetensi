@@ -5,3 +5,4 @@ Fitur yang belum
 2. Game over
 3. animation
 4. Hit audio
+5. Pause menu
